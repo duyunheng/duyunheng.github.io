@@ -7,3 +7,11 @@
 @media(max-width:480px){.profile-intro{gap:1rem}.profile-illustration{width:84px;height:84px}.profile-name h1{font-size:1.8rem}.profile-name h1 span{font-size:1.45rem}}
 
 .role-translation{color:var(--muted);font-size:.9375rem;line-height:28px;margin:.35rem 0 1.2rem;max-width:100%;overflow-wrap:normal;word-break:normal}.education-translation{color:var(--muted);margin-top:.65rem;line-height:1.65}.experience .education-translation p{font-size:.8125rem;margin:.15rem 0;line-height:1.65}.education-school{font-weight:500}@media(max-width:850px){.role-translation{max-width:none}.profile-detail{max-width:400px}}@media(max-width:480px){.english-intro{padding-left:.9rem}.education-translation{margin-top:.5rem}}
+
+/* Small spacing adjustment so contact links fit in the opening viewport. */
+@media(min-width:851px){
+.layout{padding-top:1.5rem}
+.profile{top:1.5rem}
+.profile-illustration{position:relative;top:-20px;margin-bottom:.5rem}
+}
+.profile .contact{margin-top:.5rem;padding-top:.5rem;gap:.35rem 1.5rem}
